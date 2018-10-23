@@ -18,7 +18,7 @@ namespace HexToRGB{
         private void showToolTip()
         {
             ToolTip tt = new ToolTip();
-            tt.Show("Invalid Color Code", hexcode, 0, 0, 2000);
+            tt.Show("Invalid Color Code", hexcode, 0, 0, 2100);
         }
 
         private void button1_Click(object sender, EventArgs e){
